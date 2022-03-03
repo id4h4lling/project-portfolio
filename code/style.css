@@ -1,0 +1,297 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+  }
+  
+  body {
+	width: 100%;
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  }
+
+.header{
+	background-image: url("./image/header-image.jpg");
+	background-size: cover;
+	height: 520px;
+	width: 100%;
+	background-position-x: 0%;
+}
+
+.icon{
+	display: flex;
+	justify-content: flex-end;
+	align-content: space-between;
+}
+
+  .icons-header {
+	display: flex;
+	justify-content: flex-end;
+	align-content: space-between;
+	height: 40px;
+	width: 40px;
+  }
+
+.profile-image {
+	width: 180px;
+	border-radius: 50%;
+	top: 380px;
+	right: 15%;
+	position: absolute;
+	object-fit: cover;
+}
+
+.header-text-group{
+	color: white;
+	top: 121px;
+	position: absolute;
+}
+
+/*--------- fonts ---------- */
+
+.p-heading{
+	font-family: 'Roboto';
+	font-size: 13;
+	font-weight: 700;
+}
+
+.ph1{
+	font-weight: 400;
+}
+
+h2{
+	font-size: 22px;
+	line-height: 27px;
+	font-weight: bold;
+	background-color: rgb(37, 96, 118);
+	color: white;
+	padding: 5px;
+}
+
+h3{
+	font-size: 28px;
+	line-height: 34px;
+}
+
+h4{
+	font-size: 17px;
+	line-height: 25px;
+	color: rgb(37, 96, 118);
+}
+
+h5{
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 25px;
+	color: rgb(37, 96, 118);
+}
+
+h6{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 29px;
+}
+
+p{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 29px;
+}
+
+/* article, */
+section,
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.container {
+	width: 327px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;  
+	margin: 20px 0;
+	}
+
+section:nth-child(2n) {
+	background-color: #F4F4F4;
+	}
+	
+section:nth-child(2n +1) {
+	background-color: white;
+}
+
+.about-text{
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 29px;
+}
+
+/* ------symbol------ */
+.line {
+	border: 1px solid orangered;
+    width: 40px;
+    display: inline-block;
+    margin-bottom: 4px;
+  }
+  
+  .dot {
+	height: 10px;
+    width: 10px;
+    background-color: orangered;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.tech{
+	padding: 20px, 0;
+	text-align: center;
+}
+
+.projects {
+	align-items: center;
+}
+
+.hiddenmobile {
+	display: hidden; 
+}
+
+.project-image {
+	width: 100%;
+	display: block;
+}
+
+.project-image-group {
+	position: relative;
+}
+
+.project-overlay {
+	position: absolute;
+	background-color: rgba(140, 140, 140, 0.5);
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0; 
+	display: inherit;
+}
+
+.project-heading {
+	font-weight: bold;
+	color: white;
+	margin: 50px 50px;
+	text-align: center;
+	position: absolute;
+}
+
+
+.code-wrapper {
+	display: flex;
+	/* Added to help with multiple lines of tags */
+	flex-wrap: wrap;
+}
+
+.code-wrapper span {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	background-color: rgb(228, 100, 53);
+	color: white;
+	text-decoration: none;
+  
+	/* Matching line-height and font-size here gives full control 
+	   over the size of our tags to the padding*/
+	font-size: 12px;
+	line-height: 12px;
+  
+	/* Control the size of the tags */
+	padding: 4px;
+  
+	/* Control the spacing of our tags */
+	margin: 3px;
+  
+	/* Some rounded borders */
+	border-radius: 5px;
+  }
+
+.project-text-group{
+	padding: 10px 0;
+}
+
+/* detail like arrows and some text  */
+.blue{
+	color: rgb(37, 96, 118);
+}
+
+.skills{
+	display: flex;
+	width: 100%;
+	align-content: flex-start;
+}
+
+/* .list{
+
+} */
+
+ul{
+	list-style: none;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 29px;
+	text-align: center;	
+}
+
+
+footer {
+    background-color: blue;
+	color: white;
+	text-align: center;
+}
+
+/* ------------Tablet-------------- */
+@media (min-width: 768px) {
+	.container {
+		width: 768px;
+	}
+
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container {
+	flex: 50%;
+}
+
+.hiddenmobile {
+	display: inline-block; 
+	}
+
+}
+
+/* ------------Computer-------------- */
+/* @media (min-width: 1200px) {
+	.container {
+		width: 1200px;
+	}
+
+
+.projects {
+	display: flex;
+	justify-content: column;
+}
+
+.hiddenmobile {
+	display: inline-block; 
+	}
+
+} */
