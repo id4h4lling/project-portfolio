@@ -1,9 +1,14 @@
 * {
-	margin: 0;
-	padding: 0;
-	text-decoration: none;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility; */
   }
   
+
   body {
 	width: 100%;
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -18,23 +23,27 @@
 }
 
 .icon{
+	width: 100%;
 	display: flex;
 	justify-content: flex-end;
 	align-content: space-between;
+	padding: 30px 0px;
+	
 }
 
   .icons-header {
-	display: flex;
 	justify-content: flex-end;
 	align-content: space-between;
 	height: 40px;
 	width: 40px;
+	margin: 0px 15px 0px 0px;
+	/* padding: 0px 3px; */
   }
 
 .profile-image {
 	width: 180px;
 	border-radius: 50%;
-	top: 380px;
+	top: 356px;
 	right: 15%;
 	position: absolute;
 	object-fit: cover;
@@ -44,6 +53,7 @@
 	color: white;
 	top: 121px;
 	position: absolute;
+	margin: 24px;
 }
 
 /*--------- fonts ---------- */
@@ -118,7 +128,8 @@ footer {
 	flex-direction: column;
   	align-items: center;
   	justify-content: center;  
-	margin: 20px 0;
+	  padding-top: 2rem;
+	  padding-bottom: 2rem;
 	}
 
 section:nth-child(2n) {
@@ -201,7 +212,7 @@ section:nth-child(2n +1) {
 .code-wrapper span {
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
-	background-color: rgb(228, 100, 53);
+	background-color: black;
 	color: white;
 	text-decoration: none;
   
@@ -230,13 +241,12 @@ section:nth-child(2n +1) {
 }
 
 .skills{
-	display: flex;
 	width: 100%;
-	align-content: flex-start;
+	display: flex;
+	justify-content: center;
 }
 
 /* .list{
-
 } */
 
 ul{
@@ -249,6 +259,29 @@ ul{
 	text-align: center;	
 }
 
+.more{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-family: 'Roboto';
+}
+.icons{
+	font-size: 11px;
+}
+
+.icons-more{
+	justify-content: center;
+	text-align: center;
+	height: 60px;
+	width: 60px;
+  }
+
+  .wrapper-icon {
+	justify-content: center;
+	text-align: center;
+	height: 60px;
+	padding: 30px;
+  }
 
 footer {
     background-color: blue;
