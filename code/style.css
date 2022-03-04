@@ -19,7 +19,7 @@
 	background-size: cover;
 	height: 520px;
 	width: 100%;
-	background-position-x: 0%;
+	background-position-x: 25%;
 }
 
 .icon{
@@ -65,7 +65,16 @@
 }
 
 .ph1{
-	font-weight: 400;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+.h2{
+	font-size: 24px;
+	line-height: 40px;
 }
 
 h2{
