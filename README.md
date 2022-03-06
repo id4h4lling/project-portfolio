@@ -1,5 +1,5 @@
 # portfolio
-Welcome to my portfolio with a collection of my latest projects in frontend development. The portfolio will be updated weekly during the bootcamp with new projects and interesting articles.
+This is my portfolio with a collection of my latest projects in frontend development. The portfolio will be updated weekly during the bootcamp with new projects and interesting articles.
 
 # The project 
 I've built a portfolio following a design also making sure it's responsive and accessibel. 
