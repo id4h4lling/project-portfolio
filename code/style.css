@@ -255,6 +255,10 @@ section:nth-child(2n +1) {
 	color: rgb(37, 96, 118);
 }
 
+.titel{
+	align-items: center;
+}
+
 .skills{
 	display: flex;
 	/* justify-content: column; */
@@ -341,35 +345,24 @@ background-position-x: 25%;
   	justify-content: center;  
 }
 
-
 .desktop-div{
 	display: flex;
 	flex-wrap: wrap;
-	}¢¢
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	margin: 0px 90px;
+	}
 
 .git{
 	width: 600px;
 	align-items: center;
 	justify-content: center;
+	padding-top: 2rem;
 }
-
 
 .project-image-group{
 	align-items: center;
 }
-
-.project-image {
-	width: 50%;
-	display: block;
-}
-.project-overlay{
-	width: 50%;
-}
-
-.project-image-group{
-
-}
-
 
 .hiddenmobile {
 	display: inline-block; 
