@@ -295,9 +295,9 @@ a:visited{
 	color: rgb(255, 127, 127);
 }
 
-a:hover{
+/* a:hover{
 	background-color: black;
-}
+} */
 
 .more{
 	width: 100%;
