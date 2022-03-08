@@ -187,7 +187,7 @@ section:nth-child(2n +1) {
 	text-align: center;
 }
 
-.projects {
+.project-card {
 	align-items: center;
 }
 
@@ -292,7 +292,7 @@ a:link{
 
 a:visited{
 	text-decoration: none;
-	color: rgb(255, 127, 127);
+	color: black;
 }
 
 /* a:hover{
@@ -357,8 +357,7 @@ background-position-x: 25%;
 .header-text-group{
 	top: 106px;
 	left: 10%;
-	/* width: 100%; */
-	height: 100%;
+	 width: 100%; 
 }
 
 .profile-image {
@@ -367,36 +366,35 @@ background-position-x: 25%;
 	top: 378px;
 	right: 24%;
 }
+
+.section{
+display: flex;
+}
+
+
 .container {
 	width: 768px;
 	margin: 0 auto;
 	display: flex;
-  	justify-content: center;  
 }
 
-.desktop-div{
-	display: flex;
-	flex-wrap: wrap;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
-	}
-
-.git{
-	width: 50%;
-	align-items: center;
-	justify-content: center;
-	padding-top: 2rem;
-	margin: 0px 0px;
+.desktop-div {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 50px;
+	row-gap: 30px;
 }
 
-.project-image-group{
-	align-items: center;
+.project-card{
+	width: 520px;
 }
+
+/* .other-projects{
+} */
 
 .hiddenmobile {
-	display: inline-block; 
-	}
-
+	display: inline-block;
+}
 
 .icons-more{
 	justify-content: center;
