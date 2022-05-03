@@ -163,7 +163,7 @@ section:nth-child(2n + 1) {
 }
 
 .project-card {
-  align-items: center;
+  display: flex;
 }
 
 .hiddenmobile {
@@ -178,8 +178,10 @@ section:nth-child(2n + 1) {
 .project-image-group {
   display: flex;
   position: relative;
-  width: 400px;
+  /* width: 400px; */
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .project-overlay {
@@ -189,16 +191,23 @@ section:nth-child(2n + 1) {
   right: 0;
   left: 0;
   bottom: 0;
-  display: inherit;
+  /* display: inherit; */
+}
+
+.project-overlay:hover {
+  cursor: pointer;
+  opacity: 0;
+  transition: all ease-in 0.4s;
 }
 
 .project-heading {
   font-weight: bold;
   color: white;
-  margin-top: 7rem;
-  margin-left: 7rem;
-  text-align: center;
+  align-items: center;
   position: absolute;
+  width: 100%;
+  text-align: center;
+  margin: 25% 0;
 }
 
 .code-wrapper {
@@ -267,7 +276,7 @@ a:visited {
 }
 
 a:hover {
-  background-color: black;
+  color: rgb(194, 93, 93);
 }
 
 .more {
@@ -304,7 +313,7 @@ a:hover {
 }
 
 footer {
-  background-color: blue;
+  background-color: rgb(37, 96, 118);
   color: white;
   text-align: center;
 }
@@ -368,6 +377,12 @@ footer {
     display: block;
   }
 
+  /* .other-projects-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  } */
+
   .my-thoughts {
     display: flex;
     justify-content: column;
@@ -424,6 +439,6 @@ footer {
 
   p {
     font-size: 18px;
-    line-height: 41px;
+    line-height: 30px;
   }
 }
