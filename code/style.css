@@ -45,14 +45,14 @@ body {
   color: white;
   top: 121px;
   position: absolute;
-  margin: 80px;
+  margin: 60px;
 }
 
 /*--------- fonts ---------- */
 
 h1 {
-  font-size: 40px;
-  line-height: 49px;
+  font-size: 30px;
+  line-height: 42px;
   width: 220px;
 }
 
@@ -287,19 +287,20 @@ a:hover {
 }
 
 .icons {
-  font-size: 13px;
+  font-size: 9px;
 }
 
 .icons-more {
   justify-content: center;
   text-align: center;
-  width: 100px;
+  width: 60px;
+  height: 70px;
 }
 
 .wrapper-icon {
   justify-content: center;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 20px;
 }
 
