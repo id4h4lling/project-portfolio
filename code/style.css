@@ -23,18 +23,18 @@ body {
 .icon {
   display: flex;
   justify-content: flex-end;
-  padding: 75px;
+  padding: 75px 40px;
 }
 
 .icons-header {
   height: 40px;
-  margin: 0px 7px 0px 0px;
+  margin: 0px 8px 0px 0px;
 }
 
 .profile-image {
   width: 160px;
   border-radius: 50%;
-  top: 366px;
+  top: 382px;
   right: 15%;
   position: absolute;
   object-fit: cover;
@@ -44,7 +44,7 @@ body {
   color: white;
   top: 121px;
   position: absolute;
-  margin: 60px;
+  margin: 50px;
 }
 
 /*--------- fonts ---------- */
