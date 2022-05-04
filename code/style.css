@@ -313,6 +313,10 @@ a:hover {
   font-family: "Montserrat";
 }
 
+.mailto {
+  color: white;
+}
+
 footer {
   background-color: rgb(37, 96, 118);
   color: white;
