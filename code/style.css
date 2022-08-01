@@ -367,7 +367,7 @@ footer {
     display: flex;
     align-content: space-between;
     margin-left: -20%;
-    padding: 90px 0px;
+    /* padding: 90px 0px; */
   }
 
   .icons-header {
