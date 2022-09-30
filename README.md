@@ -12,4 +12,4 @@ Accessibility & accessibility testing
 Responsive design
 
 # View it live
-https://inspiring-thompson-b805bf.netlify.app/
+https://developer.idahalling.com/
